@@ -4,15 +4,16 @@
 
 .container {
     background-color: blue;
-    height:500px;
+    height:600px;
     text-align: center;
     color:white;
 }
 .container-header {
     height: 400px;
+    text-align: center;
 }
 
-.container-images{
+.container-about{
     height: 300px;
     background-color: brown;
 }
@@ -25,6 +26,10 @@
     background-color: black;
 }
 
+.container-copyright {
+    height:70px;
+    background-color: darkslategray;
+}
 [class*="item"] {
 
     height:180px;
