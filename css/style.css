@@ -5,10 +5,13 @@
 .container {
     background-color: blue;
     height:500px;
+    text-align: center;
+    color:white;
 }
 .container-header {
     height: 400px;
 }
+
 .container-images{
     height: 300px;
     background-color: brown;
@@ -20,4 +23,14 @@
 .container-nav{
     height: 100px;
     background-color: black;
+}
+
+[class*="item"] {
+
+    height:180px;
+    border: 2px red solid;
+}
+img{
+    height: 100%;
+    width:100%;
 }
