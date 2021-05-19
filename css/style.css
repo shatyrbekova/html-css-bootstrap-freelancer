@@ -110,3 +110,20 @@ li {
   min-height: 500px;
   padding: 30px 200px;
 }
+
+.contact-form input{
+    width:100%;
+    border: 0;
+    border-bottom: 1px #ccc solid;
+    margin-bottom: 15px;
+}
+
+textarea{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px #ccc solid;
+}
+.contact-form ::placeholder {
+    color: black;
+    font-size: 22px;  
+}
