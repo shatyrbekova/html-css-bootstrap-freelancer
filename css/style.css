@@ -1,19 +1,13 @@
-/* Navbar */
-.container-nav{
+/* .container-navbar{
     height: 100px;
-    background-color: black;
-}
-/* Header */
+} */
+
 .container-header {
     text-align: center;
     background-color: #19bc9b;
     padding: 50px  0;
     color:white;
-}
-
-
-.container-images {
-   
+    margin-top: 50px;
 }
 
 [class*="item"] {
@@ -21,12 +15,11 @@
     margin-bottom: 24px;
     text-align: center;
 }
-.container{
-    border: 2px black solid;
-}
+
 .container-images img{
     height: 100%;
     width: 100%;
+    border-radius: 15px;
 }
 
 .container-images h1, .container-about h1 {
@@ -36,6 +29,19 @@
 .container-about{
     background-color: #19bc9b;
     color:white;
+}
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.star{
+    margin: 0 15px;
+}
+.start hr {
+ width:120px;
+ height: 2px;
+
 }
 
 .about-content{
@@ -58,7 +64,7 @@
     color:#19bc9b;
 }
 
-li {
+footer .footer-content li {
     list-style: none;
 }
 
@@ -80,13 +86,15 @@ li {
    
 
 }
+
 .btn-green {
     background-color:#19bc9b ;
     border: 1px white solid;
     color:white;
 }
-.footer-content{
-    margin-top: 50px;
+
+.footer-content ul{
+  margin-top: 50px;
 }
 
 .footer-content h1 {
@@ -96,17 +104,8 @@ li {
 .text-footer {
     font-size: 23px;
 }
-.container-copyright {
-    height:70px;
-    background-color: darkslategray;
-    text-align: center;
-    color:white;
-    padding-top: 30px;
-}
 
-
-.container-about button{
-   
+.container-about button{ 
        position: relative;
        left:43%;
        margin-top: 30px;
@@ -133,4 +132,12 @@ textarea{
 .contact-form ::placeholder {
     color: black;
     font-size: 22px;  
+}
+
+.container-copyright {
+    height:70px;
+    background-color: darkslategray;
+    text-align: center;
+    color:white;
+    padding-top: 30px;
 }
