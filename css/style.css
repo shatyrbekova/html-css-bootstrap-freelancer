@@ -1,4 +1,8 @@
-
+/* Navbar */
+.container-nav{
+    height: 100px;
+    background-color: black;
+}
 /* Header */
 .container-header {
     text-align: center;
@@ -44,31 +48,56 @@
 }
 
 .container-footer {
-    height: 200px;
-    background-color: blueviolet;
+    height: 230px;
+    background-color: rgb(45, 45, 73);
     text-align: center;
-    padding: 30px 210px;
     color:white;
 }
 
-.container-nav{
-    height: 100px;
-    background-color: black;
+.container-footer a{
+    text-decoration: none;
+    color:#19bc9b;
 }
 
+li {
+    list-style: none;
+}
+
+.container-footer .circle-icon {
+    border: 1px white solid;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+
+.facebook {
+    font-size: 17px;
+    border: 1px white solid;
+    border-radius: 60%;
+    padding: 24px;
+   
+
+}
+
+.footer-content{
+    margin-top: 50px;
+}
+
+.footer-content h1 {
+    font-size: 27px;
+}
+
+.text-footer {
+    font-size: 23px;
+}
 .container-copyright {
     height:70px;
     background-color: darkslategray;
     text-align: center;
     color:white;
     padding-top: 30px;
-}
-
-
-
-.informations { 
-    border: 2px yellow solid;
-    padding: 15px;
 }
 
 
