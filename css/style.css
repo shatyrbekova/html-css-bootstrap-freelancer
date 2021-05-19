@@ -1,30 +1,48 @@
 
-.container-fluid {
-    background-color: aqua;
-}
-
-.container {
-    background-color: blue;
-    height:600px;
-    /* text-align: center; */
+/* Header */
+.container-header {
+    text-align: center;
+    background-color: #19bc9b;
+    padding: 50px  0;
     color:white;
 }
-.container-header {
-    height: 400px;
+
+
+.container-images {
+   
+}
+
+[class*="item"] {
+    height:260px;
+    margin-bottom: 24px;
     text-align: center;
+}
+.container{
+    border: 2px black solid;
+}
+.container-images img{
+    height: 100%;
+    width: 100%;
 }
 
 .container-images h1, .container-about h1 {
     padding-top: 50px;
 }
+
 .container-about{
-    height: 500px;
-    background-color: brown;
+    background-color: #19bc9b;
+    color:white;
 }
 
-.text-about{
+.about-content{
+    height: 200px;
+    background-color:blue;
+    font-size:23px;
+}
+.text-centred{
     text-align: center;
 }
+
 .container-footer {
     height: 200px;
     background-color: blueviolet;
@@ -32,10 +50,6 @@
     padding: 30px 210px;
     color:white;
 }
-
-/* .footer-list {
-    padding: 30px 300px;
-} */
 
 .container-nav{
     height: 100px;
@@ -49,25 +63,21 @@
     color:white;
     padding-top: 30px;
 }
-[class*="item"] {
 
-    height:180px;
-    border: 2px red solid;
-}
+
 
 .informations { 
     border: 2px yellow solid;
-    height: 180px;
-    padding: 15px 230px 0 230px;
+    padding: 15px;
 }
-img{
-    height: 100%;
-    width:100%;
-}
+
+
 .container-about button{
        position: relative;
        left:46%;
 }
+
 .container-contacts {
+  min-height: 500px;
   padding: 30px 200px;
 }
