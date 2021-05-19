@@ -1,7 +1,22 @@
-/* .container-navbar{
-    height: 100px;
-} */
+/* Riscrittura navbar */
+.container-navbar {
+    height: 80px;
+    font-weight: bold;
+}
 
+.bg-color-btn {
+    background-color: #2c3d4f;
+}
+
+.navbar .navbar-collapse {
+    flex-grow:0;
+}
+
+.navbar-dark .navbar-toggler {
+    border: 1px grey solid;
+}
+
+/* header */
 .container-header {
     text-align: center;
     background-color: #19bc9b;
@@ -39,13 +54,13 @@
     margin: 0 15px;
 }
 .start hr {
- width:120px;
+ width:150px;
  height: 2px;
 
 }
 
 .about-content{
-    height: 180px;
+   
     font-size:23px;
 }
 .text-centred{
@@ -53,7 +68,7 @@
 }
 
 .container-footer {
-    height: 230px;
+   
     background-color: rgb(45, 45, 73);
     text-align: center;
     color:white;
